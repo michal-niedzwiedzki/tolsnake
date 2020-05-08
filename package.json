@@ -1,0 +1,28 @@
+{
+  "name": "tolsnake",
+  "version": "0.0.1",
+  "description": "",
+  "main": "snake.js",
+  "scripts": {
+    "lint": "node_modules/jslint/bin/jslint.js **/*.js",
+    "lint:fix": "node_modules/jslint/bin/jslint.js --fix **/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolek-rudnicki/tolsnake.git"
+  },
+  "keywords": [
+    "snake"
+  ],
+  "author": "Tolek Rudnicki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tolek-rudnicki/tolsnake/issues"
+  },
+  "homepage": "https://github.com/tolek-rudnicki/tolsnake#readme",
+  "devDependencies": {
+    "jslint": "^0.12.1",
+    "prettier": "2.0.5"
+  }
+}
